@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    
+ 
+}
+
+.box{
+     /* background-image: url(./burg.jpg);  */
+     background-image: url(https://themewagon.github.io/restoran/img/bg-hero.jpg);
+    background-color:#17254b;
+
+     background-position: center; 
+     /* background-blend-mode:exclusion; */
+     background-blend-mode:multiply;
+    background-repeat: no-repeat;
+     background-size: cover;
+    height: 1000px;
+  
+}
+
+
+
+.logo i{
+    margin-right: 1rem;
+}
+
+
+nav{
+    display: flex;
+    background-color: #0f172b;
+    color: white;
+   align-items: center;
+    justify-content:left;
+    height: 80px;
+    position: sticky;
+}
+
+.nav_link{
+    width: 50%;
+}
+
+.nav_link ul{
+
+    display: flex;
+    list-style-type: none;
+   align-items: center;
+    justify-content: right;
+    justify-content: space-around;
+    font-family: sans-serif; 
+    font-size: 16px;
+
+    
+   
+}
+
+h1{
+    color: #fea116;
+    font-size: 35px;
+    margin-right: 30%;
+    margin-left: 3%;
+    justify-content: space-between;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+     
+}
+
+ul li a:hover{
+    color: #fea116;
+}
+
+.bookatable{
+    background-color: #fea116;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+    transition: opacity 0.15s;
+}
+
+.bookatable:hover{
+    opacity: 0.9;
+    background-color: #fea116;
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    width: 40vw;
+}
+
+.enjoy{
+    font-size: 64px;
+    color: white;
+    font-family: nunito, sans-serif;
+    width: 40vw;
+    
+
+}
